@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  box-sizing: border-box;
+}
+.btn-group {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-block-start: 15px;
+}
+
+.btn {
+  outline: 0;
+  border: 0;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-inline-end: 15px;
+}
+.btn-group .btn-submit {
+  background-color: #5596cf;
+  color: #eef2f7;
+}
+.btn-group .btn-submit:hover {
+  background-color: #487399c9;
+}
+.btn-cancel {
+  background-color: #b93333;
+  color: #eef2f7;
+}
+.btn-group .btn-cancel:hover {
+  background-color: #b9333388;
+}
+
+@media screen and (max-width: 700px) {
+  .btn-group {
+    justify-content: center;
+  }
+}
+
+.error-text {
+  color: #b93333;
+}
+
+h2#swal2-title.swal2-title {
+  font-size: 16px;
+}
+div#swal2-html-container {
+  font-size: 14px;
+}
